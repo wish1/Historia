@@ -1,2 +1,2 @@
 __author__ = 'student'
-print("hello world")
+print("helloworld") #aswq
