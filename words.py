@@ -1,11 +1,5 @@
 __author__ = 'student'
-S=input()
-print(S[2])
-print(S[-2])
-print(S[0:5])
-print(S[:-2])
-print(S[0::2])
-print(S[1::2])
-print(S[::-1])
-print(S[::-2])
-print(len(S))
+a=[1,2,3,4,5]
+for i in range(1,len(a),2):
+    a[i-1],a[i]=a[i],a[i-1]
+print(' '.join(map(str, a)))

@@ -1,4 +1,3 @@
 __author__ = 'student'
-a = int(input())
-print('The next number for the number', a, 'is',a+1)
-print('The previous number for the number',a, 'is',a-1)
+a=[1,2,3,2,1]
+print(max(a),a.index(max(a)))
